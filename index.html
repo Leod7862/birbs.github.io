@@ -25,6 +25,16 @@
         button:hover {
             background-color: #005f8a;
         }
+        .link-container {
+            margin-top: 20px;
+        }
+        .link-container a {
+            color: #007bb3;
+            text-decoration: none;
+        }
+        .link-container a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -44,4 +54,19 @@
         <h2>3. Navigation Skills</h2>
         <p>Migratory birds have incredible navigation skills, often using the Earth's magnetic field, sun, and stars to travel thousands of miles with astonishing accuracy.</p>
     </div>
+    <button onclick="document.getElementById('characteristic4').style.display='block'">Show Characteristic 4</button>
+    <div id="characteristic4" class="content">
+        <h2>4. Vocal Mimicry</h2>
+        <p>Some birds, like the lyrebird, are exceptional mimics, able to imitate a wide range of sounds from their environment, including other animals and even machinery.</p>
+    </div>
+    <button onclick="document.getElementById('characteristic5').style.display='block'">Show Characteristic 5</button>
+    <div id="characteristic5" class="content">
+        <h2>5. Nest Building</h2>
+        <p>Birds demonstrate incredible architectural skills in nest building. From the intricate woven nests of weaver birds to the simple ground nests of shorebirds, each species showcases unique construction techniques.</p>
+    </div>
+
+    <div class="link-container">
+        <p>Want to dive deeper into the world of birds? <a href="https://www.example.com/birds" target="_blank">Click here</a> to explore more about these fascinating creatures.</p>
+    </div>
 </body>
+
